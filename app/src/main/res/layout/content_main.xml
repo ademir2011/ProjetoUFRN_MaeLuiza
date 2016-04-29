@@ -7,4 +7,71 @@
     tools:context=".Activities.MainActivity"
     tools:showIn="@layout/activity_main">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="2">
+
+            <Button
+                android:layout_margin="1dp"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/textColorPrimary"
+                android:fontFamily="sans-serif-this"
+                android:textSize="25sp"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Mapas"/>
+
+            <Button
+                android:layout_margin="1dp"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/textColorPrimary"
+                android:fontFamily="sans-serif-this"
+                android:textSize="25sp"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Endereços"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_margin="1dp"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/textColorPrimary"
+                android:fontFamily="sans-serif-this"
+                android:textSize="25sp"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Informações e Tutoriais"/>
+
+            <Button
+                android:layout_margin="1dp"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/textColorPrimary"
+                android:fontFamily="sans-serif-this"
+                android:textSize="25sp"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Mapas"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
 </LinearLayout>

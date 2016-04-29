@@ -21,9 +21,6 @@ public class MainActivity extends AppCompatActivity {
 
         ButterKnife.bind(this);
 
-        setSupportActionBar(toolbarMain);
-        getSupportActionBar().setDisplayShowHomeEnabled(true);
-
     }
 
     @Override
