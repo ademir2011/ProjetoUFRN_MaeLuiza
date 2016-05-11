@@ -50,5 +50,6 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
 //                .position(new LatLng(0, 0))
 //                .title("Marker"));
 //        map.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+
     }
 }
